@@ -1,0 +1,13 @@
+.layout {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.layout__header {
+    background-color: var(--SECONDARY-COLOR);
+    padding: 0.2rem 0.5rem;
+}
+
+.layout__content {
+    flex-grow: 1;
+}

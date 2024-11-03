@@ -1,0 +1,33 @@
+.herobottom {
+    background-color: var(--SECONDARY-COLOR);
+    padding: 0 1.5rem;
+}
+
+.herobottom__containers {
+    display: grid;
+    gap: 1rem;
+    position: relative;
+    top: -50px;
+}
+
+.herobottom__containers div {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 1.5rem;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    box-shadow: 0 0.2rem 0.2rem 0 rgba(0, 0, 0, 0.2), 0 0.3rem 0.8rem 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (min-width: 481px) {
+    .herobottom__containers {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 769px) {
+    .herobottom__containers {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

@@ -1,0 +1,62 @@
+.posts__container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.posts h1 {
+    font-weight: 800;
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.posts__post {
+    padding: 0 1rem 1rem;
+    border-radius: 0.2rem;
+    box-shadow: 0 0.2rem 0.2rem 0 rgba(0, 0, 0, 0.2), 0 0.3rem 0.8rem 0 rgba(0, 0, 0, 0.19);
+}
+
+.post__category {
+    background-color: var(--PRIMARY-DARK-COLOR);
+    color: white;
+    width: 10rem;
+    padding: 0.5rem 1rem;
+    position: relative;
+    border-radius: 0.5rem;
+    top: -1rem;
+}
+
+.post__content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.post__content h4 {
+    color: blue;
+    text-decoration: underline;
+}
+
+.post__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post__reactions {
+    display: flex;
+    gap: 0.5rem;
+    font-size: 1rem;
+}
+
+.post__reaction {
+    /* background-color: var(--SECONDARY-DARK-COLOR); */
+    padding: 0.2rem 1rem;
+    border-radius: 50%;
+    border-bottom: 0.5rem solid black;
+}
+
+.post__author {
+    display: flex;
+    gap: 0.5rem;
+}
